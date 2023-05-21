@@ -1,0 +1,45 @@
+@keyframes SlideToRight {
+    0%{
+        transform:translateX(-150px);
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+@keyframes SlideToBottom {
+    0%{
+        transform:translateY(-50px);
+    }
+    100%{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+@keyframes SlideToLeft {
+    0%{
+        transform:translateX(150px);
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+@keyframes SlideToTop {
+    0%{
+        transform:translateY(-50px);
+    }
+    100%{
+        transform:translateY(0);
+        opacity:1;
+    }
+}
+@keyframes Scale {
+    0%{
+        scale:0;
+    }
+    100%{
+        scale:1;
+        opacity:1;
+    }
+}
